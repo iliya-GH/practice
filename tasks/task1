@@ -1,0 +1,46 @@
+# first style (question1)
+x = 6
+y = 7
+x = 3
+y = 9
+print(x, y, sep="\n")
+# second style
+a = 6
+b = 7
+print((a:=4), (b:=5), sep="\n")
+# first style (question2)
+a = 8
+b = 9
+print("s:", a * b, sep="")
+# second style
+a = 8
+b = 9
+s = a * b
+print(s)
+# question 3
+c = 24
+print("f", c * 1.8 + 32)
+# question 4
+r = 3
+ds = 3.14 * r ** 2
+p = 2 * 3.14 * r
+print("s:", ds, "p:", p)
+# question 5
+t = 6
+u = 2
+print("j:", t + u, "m:", t - u, "z:", t * u, "t:", t ** u)
+# question 6
+x = 3
+y = 5
+z = 8
+i = x + y + z
+print(i / 2)
+# question 7
+e = 4
+q = 6
+x = e * q
+print(x / 2)
+# question 8
+y = 100
+a = 1403
+print(a + y)
